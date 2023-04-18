@@ -84,31 +84,31 @@ function App() {
     const warehouseid=(document.getElementById("warehouse_ID")as HTMLInputElement).value;
     const boxRec=(document.getElementById("boxes_Received")as HTMLInputElement).value;
     const shipperID=(document.getElementById("ShipperID")as HTMLInputElement).value;
-    if(date==""){
+    if(date===""){
       alert("Date is missing!");
       return;
     }
 
-    if(shipid==""){
+    if(shipid===""){
       alert("Shipment ID is missing!");
       return;
     }
 
-    if(shippo==""){
+    if(shippo===""){
       alert("Shipment PO is missing!");
       return;
     }
 
-    if(warehouseid==""){
+    if(warehouseid===""){
       alert("Warehouse ID is missing!");
       return;
     }
 
-    if(boxRec==""){
+    if(boxRec===""){
       alert("Boxes Received is missing!");
       return;
     }
-    if(shipperID==""){
+    if(shipperID===""){
       alert("shipper ID is missing!");
       return;
     }
